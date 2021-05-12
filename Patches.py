@@ -2064,9 +2064,9 @@ def create_fake_name(name):
     vowels = 'aeiou'
     list_name = list(name)
     vowel_indexes = [i for i,c in enumerate(list_name) if c in vowels]
-    for i in random.sample(vowel_indexes, min(2, len(vowel_indexes))):
-        c = list_name[i]
-        list_name[i] = random.choice([v for v in vowels if v != c])
+    #for i in random.sample(vowel_indexes, min(2, len(vowel_indexes))):
+        #c = list_name[i]
+        #list_name[i] = random.choice([v for v in vowels if v != c])
 
     # keeping the game E...
     new_name = ''.join(list_name)

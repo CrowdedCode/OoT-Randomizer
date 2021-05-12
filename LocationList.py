@@ -191,6 +191,7 @@ location_table = OrderedDict([
     ("Kak 30 Gold Skulltula Reward",                                 ("NPC",          0x50,  0x46, None,                        'Progressive Wallet',                    ("Kakariko Village", "Kakariko", "Skulltula House"))),
     ("Kak 40 Gold Skulltula Reward",                                 ("NPC",          0x50,  0x03, None,                        'Bombchus (10)',                         ("Kakariko Village", "Kakariko", "Skulltula House"))),
     ("Kak 50 Gold Skulltula Reward",                                 ("NPC",          0x50,  0x3E, None,                        'Piece of Heart',                        ("Kakariko Village", "Kakariko", "Skulltula House"))),
+	("Kak 100 Gold Skulltula Reward",                                 ("NPC",          0x50,  0x56, None,                        'Rupees (200)',                        ("Kakariko Village", "Kakariko", "Skulltula House"))),
     ("Kak Impas House Cow",                                          ("NPC",          0x37,  0x15, None,                        'Milk',                                  ("Kakariko Village", "Kakariko", "Cow"))),
     ("Kak GS Tree",                                                  ("GS Token",     0x10,  0x20, None,                        'Gold Skulltula Token',                  ("Kakariko Village", "Skulltulas",))),
     ("Kak GS Guards House",                                          ("GS Token",     0x10,  0x02, None,                        'Gold Skulltula Token',                  ("Kakariko Village", "Skulltulas",))),

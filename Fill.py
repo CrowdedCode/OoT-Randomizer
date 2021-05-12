@@ -88,13 +88,12 @@ def distribute_items_restrictive(window, worlds, fill_locations=None):
     itempool = progitempool + prioitempool + restitempool
 
     # set ice traps to have the appearance of other random items in the item pool
-    ice_traps = [item for item in itempool if item.name == 'Ice Trap']
+    ice_traps = [item for item in itempool]
     # Extend with ice traps manually placed in plandomizer
     ice_traps.extend(
         location.item for location in cloakable_locations
         if (location.has_preview()
             and location.item is not None
-            and location.item.name == 'Ice Trap'
             and location.item.looks_like_item is None))
     junk_items = remove_junk_items.copy()
     junk_items.remove('Ice Trap')
